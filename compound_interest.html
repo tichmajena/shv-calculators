@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="compound.js" charset="utf-8"></script>
+
+  <title></title>
+
+</head>
+
+<body>
+  <div class="mycontainer magic" >
+    <div class="header">
+      <h1 class="title">Magic cent
+      </h1>
+
+    </div>
+    <div class="content-wrapper">
+      <div class="menu">
+        <ul>
+          <li><a href="/rectangle_area.html"> Area of Rectangle</a></li>
+          <li><a href="/triangle_area.html"> Area of Triangle</a></li>
+          <li><a href="/simple_interest.html"> Simple Interest</a></li>
+          <li><a href="/magic_cent.html"> Magic Penny</a></li>
+
+        </ul>
+
+
+      </div>
+      <div class="calculator-wrapper">
+        <div class="calculator-body">
+
+            <div class="cents">
+              <img src="/images/magic-cent.png" alt="">
+
+            </div>
+
+            <div class="">
+              <label for="fname">Years</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"></span>
+                </div>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="days">
+                <div class="input-group-append">
+                  <span class="input-group-text">days</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bm_button-wrapper ">
+              <button class="btn btn-primary bm_button" onclick="magicValidate();">Calculate</button>
+              <button class="btn btn-primary bm_button" onclick="magicReset();">Reset</button>
+
+            </div>
+
+<div class="balance">
+    <h4 class="title">Magic cent</h4>
+    <h1> <span >$</span><span id="answer">000 </span></h1>
+    <h4></h4>
+
+</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</body>
+
+</html>
